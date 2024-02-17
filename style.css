@@ -1,0 +1,264 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0a500;
+  cursor: pointer;
+
+  @media (max-width: 360px) {
+    font-size: 24px;
+  }
+}
+
+.container {
+  max-width: 1536px;
+  margin: 0 auto;
+  margin-top: 10xpx;
+  @media (max-width: 1536px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  @media (max-width: 768px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.div-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+
+  img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  @media (max-width: 360px) {
+    gap: 16px;
+  }
+}
+
+.launch-app-btn {
+  background-color: transparent;
+  border: 1px solid #f0a500;
+  color: #f0a500;
+  padding: 8px 1rem;
+  font-weight: bold;
+  line-height: normal;
+  cursor: pointer;
+
+  @media (max-width: 535px) {
+    font-size: small;
+  }
+}
+
+/* hero-wrapper */
+
+.hero-wrapper {
+  min-height: calc(100vh - 61px);
+  background-image: url(./gallery/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-align: center;
+    margin-inline: auto;
+    max-width: 700px;
+
+    @media (max-width: 550px) {
+      font-size: 12px;
+      font-weight: 250;
+      max-width: 70%;
+    }
+  }
+}
+
+.hero-text {
+  color: white;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90px;
+  text-transform: capitalize;
+  padding-top: 7rem;
+  max-width: 1100px;
+  text-align: center;
+  margin-inline: auto;
+
+  span {
+    color: #f0a500;
+  }
+
+  @media (max-width: 555px) {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+}
+
+.buy-now-btn {
+  display: block;
+  background-color: #f0a500;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin-inline: auto;
+  gap: 17px;
+  margin-top: 2rem;
+}
+
+.ca-text {
+  border: 1.2px solid #ffffff53;
+  backdrop-filter: blur(24px);
+  margin-top: 5rem;
+  margin-inline: auto;
+  background-color: rgba(0, 0, 0, 0.29);
+  width: 600px;
+  height: 27px;
+  padding: 0.5rem;
+
+  @media (max-width: 992px) {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 350;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    margin-inline: auto;
+    letter-spacing: 0.25rem;
+    word-break: break-all;
+    width: 100%;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+
+    @media (max-width: 825px) {
+      font-size: 12px;
+    }
+  }
+}
+
+/* about section */
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 4rem;
+  gap: 3rem;
+
+  span {
+    color: #f0a500;
+  }
+
+  div:nth-child(1) {
+    flex: 1;
+
+    p:nth-child(1) {
+      color: black;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.8em;
+      text-align: left;
+      margin-top: 6rem;
+
+      @media (max-width: 1100px) {
+        margin-top: 0;
+        font-size: 13px;
+        font-weight: 350;
+      }
+    }
+  }
+
+  h2 {
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+
+    @media (max-width: 1100px) {
+      font-size: 36px;
+      font-weight: 500px;
+    }
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 410;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+
+    @media (max-width: 1100px) {
+      font-size: 12px;
+      font-weight: 300;
+      margin: 0%;
+    }
+  }
+
+  div:nth-child(2) {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    @media (max-width: 1100px) {
+      width: 50%;
+    }
+  }
+}
+
+.about-container {
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
+}
