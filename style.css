@@ -365,11 +365,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5rem 0;
+  margin: 4rem 0;
 
-  @media (max-width: 1420px) {
+  @media (max-width: 875px) {
     flex-direction: column;
-    gap: 3rem 0;
+    gap: 2rem 2rem;
   }
 }
 
@@ -382,6 +382,14 @@ body {
   border-radius: 4%;
   padding: 1rem;
 
+  @media (max-width: 1380px) {
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 400px) {
+    width: 250px;
+  }
+
   hr {
     width: 20%;
   }
@@ -391,12 +399,27 @@ body {
     font-weight: 600;
     line-height: 47px;
     text-transform: capitalize;
+
+    @media (max-width: 1380px) {
+      font-size: 18px;
+      font-weight: 500;
+    }
   }
 
   p {
     font-size: 12px;
     font-weight: 300;
     line-height: 29px;
+
+    @media (max-width: 1380px) {
+      font-size: 10px;
+      font-weight: 200;
+    }
+  }
+
+  @media (max-width: 1380px) {
+    width: 280;
+    height: 130;
   }
 }
 
@@ -409,6 +432,14 @@ body {
   border-radius: 4%;
   padding: 1rem;
 
+  @media (max-width: 1380px) {
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 400px) {
+    width: 250px;
+  }
+
   hr {
     width: 20%;
   }
@@ -418,12 +449,24 @@ body {
     font-weight: 600;
     line-height: 47px;
     text-transform: capitalize;
+
+    @media (max-width: 1380px) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 35px;
+    }
   }
 
   p {
     font-size: 12px;
     font-weight: 300;
     line-height: 29px;
+
+    @media (max-width: 1380px) {
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 24px;
+    }
   }
 }
 
@@ -436,6 +479,14 @@ body {
   border-radius: 4%;
   padding: 1rem;
 
+  @media (max-width: 1380px) {
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 400px) {
+    width: 250px;
+  }
+
   hr {
     width: 20%;
   }
@@ -443,14 +494,25 @@ body {
   h4 {
     font-size: 24px;
     font-weight: 600;
-    line-height: 47px;
     text-transform: capitalize;
+    line-height: 47px;
+    @media (max-width: 1380px) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 35px;
+    }
   }
 
   p {
     font-size: 12px;
     font-weight: 300;
     line-height: 29px;
+
+    @media (max-width: 1380px) {
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 24px;
+    }
   }
 }
 
