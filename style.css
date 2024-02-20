@@ -751,5 +751,8 @@ body {
       width: 150px;
       height: 44px;
     }
+    @media (max-width: 470px) {
+      margin-bottom: 2rem;
+    }
   }
 }
